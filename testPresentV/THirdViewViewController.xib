@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="THirdViewViewController" customModule="testPresentV" customModuleProvider="target">
+            <connections>
+                <outlet property="CodebleStructView" destination="F2j-Ff-KHF" id="3ke-GA-r0m"/>
+                <outlet property="ExportClassView" destination="eYi-er-faG" id="ntG-Ry-VoW"/>
+                <outlet property="ExportStrucctView" destination="9uW-bo-21b" id="WS8-ZA-xZE"/>
+                <outlet property="MjExtensionView" destination="M2H-N3-yZz" id="GFL-7i-sNd"/>
+                <outlet property="SwiftJSONView" destination="BZf-e6-wRN" id="FKz-Pp-nbn"/>
+                <outlet property="handyJSONView" destination="ChT-Ym-stY" id="rjP-xw-TmE"/>
+                <outlet property="objectMapperView" destination="AHB-pn-GXI" id="JCP-7C-Byw"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DmY-eJ-Uqu">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lhq-5B-fBE">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1188"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v5s-eL-D2Z">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="580"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AHB-pn-GXI" customClass="PureCodeCardView" customModule="testPresentV" customModuleProvider="target">
+                                            <rect key="frame" x="20" y="8" width="374" height="76"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="76" id="Jeo-F0-lDo"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="newBackgroundColor">
+                                                    <color key="value" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                    <color key="value" red="0.094117647060000004" green="0.56470588239999997" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="leftText" value="objectMapper"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ChT-Ym-stY" customClass="PureCodeCardView" customModule="testPresentV" customModuleProvider="target">
+                                            <rect key="frame" x="20" y="88" width="374" height="76"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="76" id="kzX-Kd-oEe"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="newBackgroundColor">
+                                                    <color key="value" red="1" green="0.52156862745098043" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="leftText" value="HandyJSON"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M2H-N3-yZz" customClass="PureCodeCardView" customModule="testPresentV" customModuleProvider="target">
+                                            <rect key="frame" x="20" y="168" width="374" height="76"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="76" id="gE6-ox-0WJ"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="leftText" value="MJextension"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9uW-bo-21b" customClass="PureCodeCardView" customModule="testPresentV" customModuleProvider="target">
+                                            <rect key="frame" x="20" y="248" width="374" height="76"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="76" id="qUZ-yR-sMP"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="newBackgroundColor">
+                                                    <color key="value" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="leftText" value="ExportStruct"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F2j-Ff-KHF" customClass="PureCodeCardView" customModule="testPresentV" customModuleProvider="target">
+                                            <rect key="frame" x="20" y="328" width="374" height="76"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="76" id="k26-a5-9hd"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="newBackgroundColor">
+                                                    <color key="value" red="0.27450980390000002" green="0.66274509800000003" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="leftText" value="ExportCodebleClass"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eYi-er-faG" customClass="PureCodeCardView" customModule="testPresentV" customModuleProvider="target">
+                                            <rect key="frame" x="20" y="408" width="374" height="76"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="76" id="uOS-X8-3Ez"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="newBackgroundColor">
+                                                    <color key="value" red="0.27450980390000002" green="0.66274509800000003" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="leftText" value="ExportClass"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BZf-e6-wRN" customClass="PureCodeCardView" customModule="testPresentV" customModuleProvider="target">
+                                            <rect key="frame" x="20" y="488" width="374" height="76"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="76" id="MAV-iK-lA2"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="newBackgroundColor">
+                                                    <color key="value" red="0.27450980390000002" green="0.66274509800000003" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="leftText" value="SwiftJSON"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.094117647060000004" green="0.56470588239999997" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstItem="eYi-er-faG" firstAttribute="leading" secondItem="v5s-eL-D2Z" secondAttribute="leading" constant="20" id="0NR-UP-wx9"/>
+                                        <constraint firstItem="9uW-bo-21b" firstAttribute="top" secondItem="M2H-N3-yZz" secondAttribute="bottom" constant="4" id="2oJ-mM-M9c"/>
+                                        <constraint firstItem="F2j-Ff-KHF" firstAttribute="top" secondItem="9uW-bo-21b" secondAttribute="bottom" constant="4" id="6c1-NA-ifv"/>
+                                        <constraint firstAttribute="height" constant="580" id="7pY-cA-wNj"/>
+                                        <constraint firstItem="AHB-pn-GXI" firstAttribute="leading" secondItem="v5s-eL-D2Z" secondAttribute="leading" constant="20" id="Dbv-Vg-AHd"/>
+                                        <constraint firstAttribute="trailing" secondItem="ChT-Ym-stY" secondAttribute="trailing" constant="20" id="GKk-lW-QSG"/>
+                                        <constraint firstAttribute="trailing" secondItem="AHB-pn-GXI" secondAttribute="trailing" constant="20" id="Iaf-j1-ZX6"/>
+                                        <constraint firstAttribute="trailing" secondItem="F2j-Ff-KHF" secondAttribute="trailing" constant="20" id="JB6-Br-EKE"/>
+                                        <constraint firstItem="AHB-pn-GXI" firstAttribute="top" secondItem="v5s-eL-D2Z" secondAttribute="top" constant="8" id="KoN-Mm-BOg"/>
+                                        <constraint firstItem="eYi-er-faG" firstAttribute="top" secondItem="F2j-Ff-KHF" secondAttribute="bottom" constant="4" id="Q8h-ec-kg9"/>
+                                        <constraint firstItem="ChT-Ym-stY" firstAttribute="top" secondItem="AHB-pn-GXI" secondAttribute="bottom" constant="4" id="SzH-0E-aE8"/>
+                                        <constraint firstAttribute="trailing" secondItem="BZf-e6-wRN" secondAttribute="trailing" constant="20" id="WOJ-jT-B9A"/>
+                                        <constraint firstItem="ChT-Ym-stY" firstAttribute="leading" secondItem="v5s-eL-D2Z" secondAttribute="leading" constant="20" id="ewd-qR-scp"/>
+                                        <constraint firstItem="F2j-Ff-KHF" firstAttribute="leading" secondItem="v5s-eL-D2Z" secondAttribute="leading" constant="20" id="k98-3y-Z71"/>
+                                        <constraint firstItem="M2H-N3-yZz" firstAttribute="top" secondItem="ChT-Ym-stY" secondAttribute="bottom" constant="4" id="kQu-Ys-pHn"/>
+                                        <constraint firstAttribute="trailing" secondItem="eYi-er-faG" secondAttribute="trailing" constant="20" id="krl-Wq-WOf"/>
+                                        <constraint firstItem="9uW-bo-21b" firstAttribute="leading" secondItem="v5s-eL-D2Z" secondAttribute="leading" constant="20" id="msZ-ps-zrx"/>
+                                        <constraint firstAttribute="trailing" secondItem="9uW-bo-21b" secondAttribute="trailing" constant="20" id="oGf-eh-Hlr"/>
+                                        <constraint firstItem="BZf-e6-wRN" firstAttribute="top" secondItem="eYi-er-faG" secondAttribute="bottom" constant="4" id="oci-qv-BKH"/>
+                                        <constraint firstItem="BZf-e6-wRN" firstAttribute="leading" secondItem="v5s-eL-D2Z" secondAttribute="leading" constant="20" id="v0Y-wK-hYx"/>
+                                        <constraint firstAttribute="trailing" secondItem="M2H-N3-yZz" secondAttribute="trailing" constant="20" id="wO7-nf-6wt"/>
+                                        <constraint firstItem="M2H-N3-yZz" firstAttribute="leading" secondItem="v5s-eL-D2Z" secondAttribute="leading" constant="20" id="xjf-Zd-vsU"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zYn-5c-QFR">
+                                    <rect key="frame" x="0.0" y="588" width="414" height="600"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="600" id="ut2-Xh-7ji"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="zYn-5c-QFR" secondAttribute="trailing" id="Bvz-3M-h1V"/>
+                                <constraint firstItem="v5s-eL-D2Z" firstAttribute="top" secondItem="lhq-5B-fBE" secondAttribute="top" id="QQv-QN-mRv"/>
+                                <constraint firstItem="zYn-5c-QFR" firstAttribute="leading" secondItem="lhq-5B-fBE" secondAttribute="leading" id="n5v-05-GZL"/>
+                                <constraint firstAttribute="bottom" secondItem="zYn-5c-QFR" secondAttribute="bottom" id="o2d-QM-E0v"/>
+                                <constraint firstItem="v5s-eL-D2Z" firstAttribute="leading" secondItem="lhq-5B-fBE" secondAttribute="leading" id="qfo-Me-buf"/>
+                                <constraint firstAttribute="trailing" secondItem="v5s-eL-D2Z" secondAttribute="trailing" id="ug6-c8-XDE"/>
+                                <constraint firstItem="zYn-5c-QFR" firstAttribute="top" secondItem="v5s-eL-D2Z" secondAttribute="bottom" constant="8" id="x4H-rZ-rVp"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="lhq-5B-fBE" firstAttribute="top" secondItem="DmY-eJ-Uqu" secondAttribute="top" id="68W-EC-gc4"/>
+                        <constraint firstItem="lhq-5B-fBE" firstAttribute="centerX" secondItem="DmY-eJ-Uqu" secondAttribute="centerX" id="NjN-HX-1tI"/>
+                        <constraint firstItem="lhq-5B-fBE" firstAttribute="width" secondItem="DmY-eJ-Uqu" secondAttribute="width" id="VgJ-rm-Pho"/>
+                        <constraint firstAttribute="bottom" secondItem="lhq-5B-fBE" secondAttribute="bottom" id="cXx-C4-t7S"/>
+                        <constraint firstAttribute="trailing" secondItem="lhq-5B-fBE" secondAttribute="trailing" id="s6c-8z-ajT"/>
+                        <constraint firstItem="lhq-5B-fBE" firstAttribute="leading" secondItem="DmY-eJ-Uqu" secondAttribute="leading" id="yWr-Ea-jMQ"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="DmY-eJ-Uqu" secondAttribute="bottom" id="2cH-AM-csI"/>
+                <constraint firstItem="DmY-eJ-Uqu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="QgC-Lp-b9b"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="DmY-eJ-Uqu" secondAttribute="trailing" id="Zuj-l5-4b5"/>
+                <constraint firstItem="DmY-eJ-Uqu" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="dDx-EC-6eV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="-412" y="4"/>
+        </view>
+    </objects>
+</document>

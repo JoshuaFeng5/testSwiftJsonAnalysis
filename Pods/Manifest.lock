@@ -1,0 +1,44 @@
+PODS:
+  - HandyJSON (5.0.0-beta.1)
+  - MJExtension (3.0.16)
+  - ObjectMapper (3.4.2)
+  - PromiseKit (6.8.4):
+    - PromiseKit/CorePromise (= 6.8.4)
+    - PromiseKit/Foundation (= 6.8.4)
+    - PromiseKit/UIKit (= 6.8.4)
+  - PromiseKit/CorePromise (6.8.4)
+  - PromiseKit/Foundation (6.8.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.8.4):
+    - PromiseKit/CorePromise
+  - SnapKit (4.2.0)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - HandyJSON (= 5.0.0-beta.1)
+  - MJExtension (~> 3.0.16)
+  - ObjectMapper (~> 3.4.2)
+  - PromiseKit (~> 6.8.4)
+  - SnapKit (~> 4.2.0)
+  - SwiftyJSON (~> 4.2.0)
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - HandyJSON
+    - MJExtension
+    - ObjectMapper
+    - PromiseKit
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  HandyJSON: 582477127ab3ab65bd2e471815f1a7b846856978
+  MJExtension: 54dbbf6ee728f1a88e9aad904353d007831c7847
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  PromiseKit: 51794a832647e7b819336dc2279039ce9f1cc49b
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: b9ed3e24ba5bac0d04b91eafc5b9aaf357644ace
+
+COCOAPODS: 1.6.1
